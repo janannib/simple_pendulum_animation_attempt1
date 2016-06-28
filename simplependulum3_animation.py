@@ -8,12 +8,12 @@ Simple Pendulum Project
 """
 
 """Want to set all the variables and calculate the matix T"""
-import numpy as np
 import matplotlib
-matplotlib.use('TKAgg')
-from matplotlib import pyplot as plt
-from matplotlib import pylab
+import numpy as np
 import matplotlib.animation as animation
+from matplotlib import pyplot as plt
+
+matplotlib.use('TKAgg')
 
 class Matrix:
     def __init__(self, dt=0.1, gravity = 9.81, Damping=1000, alpha=1, mass=1000, length=1,howmanytimes = 100000):
